@@ -1,0 +1,203 @@
+@media (max-width:996px) {
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .justify-content-evenly {
+        justify-content: space-between !important;
+    }
+
+    .header-manu-ul li a {
+        padding-top: 15px;
+        font-size: 11px;
+        padding-right: 8px;
+    }
+}
+@media (max-width:839px) {
+    .banner {
+        margin-top: -46px;
+    }
+    .banner-img {
+        height: 474px;
+        top: -102px;
+    }
+}
+
+@media (max-width:770px) {
+    .banner {
+        height: 436px;
+    }
+    .banner-img {
+        height: 429px;
+        top: -85px;
+    }
+}
+@media (max-width:570px) {
+    .header-manu-ul li a:nth-child(3) {
+        padding-top: 15px;
+        font-size: 9px;
+        padding-right: 8px;
+    }
+    .header-manu-ul li a:hover {
+        border-bottom: 2px solid black;
+         font-size: 13px;
+         color: rgb(124, 119, 119);
+    }
+}
+@media (max-width:500px) {
+
+    header {
+        height: 97px;
+    }
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .justify-content-around {
+        text-align: center;
+    }
+    .justify-content-evenly {
+        justify-content: space-evenly !important;
+        padding-top: 1px;
+    }
+}
+
+.mobile-icon{
+    display: none;
+}
+.checkbox{
+    opacity: 0;
+}
+@media (max-width:376px) {
+    .banner {
+        height: 436px;
+        margin-top: -132px;
+    }
+    .banner-img {
+        height: 429px;
+        top: -85px;
+        display: none;
+    }
+    .w-75 {
+        width: 19% !important;
+    }
+    .col-lg-8 {
+        width: 337px;
+    
+}
+
+@media (max-width:320px) {
+    .banner {
+        height: 436px;
+        margin-top: -144px;
+    }
+    .h6 {
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+    .h2 {
+        font-size: 19px;
+    }
+    .font-italic {
+        font-size: 14px;
+        margin-top: -5px;
+    }
+    .hire-btn {
+        width: 103px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+    .down-cv-btn {
+        width: 112px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+}
+
+}
+@media (max-width:300px) {
+    .header-primary {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .logo{
+        width: 100% !important;
+    }
+   
+    .sticky-top {
+        position: relative;
+    }
+    header {
+        height: 83px;
+    }
+    /*mobile manu*/
+     ul {
+        list-style: none;
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .header-primary .checkbox:checked ~ ul {
+        list-style: none;
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+        margin-top: 24px;
+        margin-left: -46px;
+    }
+    .header-primary{
+        position: relative;
+    }
+    .mobile-icon {
+        color: rgb(0, 145, 210);
+        font-size: 20px;
+        display: block;
+        position: absolute;
+        top: -2px;
+        left: 8px;
+        pointer-events: none;
+    }
+    .checkbox{
+        opacity: 0;
+    }
+    header {
+        height: 83px;
+        border-bottom: none;
+    }
+    .justify-content-evenly {
+        display: block !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    li {
+        display: block !important;
+        margin-bottom: 25px;
+    }
+    .banner {
+        height: 404px;
+        margin-top: -130px;
+    }
+    .h6 {
+        font-size: 13px;
+    }
+    .h2 {
+        font-size: 19px;
+    }
+    .font-italic {
+        font-size: 14px;
+        margin-top: -5px;
+    }
+    .hire-btn {
+        width: 103px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+    .down-cv-btn {
+        width: 112px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+}
+

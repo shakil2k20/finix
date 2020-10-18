@@ -1,0 +1,204 @@
+/*Defolt css*/
+h1,h2,h3,h4,h5,h6,p,span,a{
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+/*-----------------------------*/
+/*header css*/
+header {
+    border-bottom: 1px solid #bdbbbb;
+    width: 100%;
+    height: 58px;
+    background-color: rgb(252, 252, 252);
+}
+.header-manu-ul {
+    line-height: 0;
+}
+.header-manu-ul li a {
+    color: black;
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    transition: all 0.8s;
+}
+.header-manu-ul li a:hover{
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    color: rgb(124, 119, 119);
+}
+
+.img-div{
+
+}
+/*-----------------------------*/
+/*banner css*/
+.banner-img {
+    width: auto;
+    height: 521px;
+    position: relative;
+    top: -112px;
+    left: -91px;
+}
+.banner {
+    background-image: url(img/main-bg-new.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right;
+    width: 100%;
+    height: 459px;
+    margin-top: -34px;
+}
+.hire-btn {
+    width: 120px;
+    background: white;
+    border: 2px solid rgb(52, 58, 64);
+    color: rgb(52, 58, 64);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+
+    transition: all .5s;
+}
+.down-cv-btn {
+    width: 120px;
+    border: 2px solid rgb(52, 58, 64);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+
+    transition: all .5s;
+}
+.btn-hover:hover{
+    border: 2px solid rgb(52, 58, 64);
+    color: white;
+    background-color: rgb(52, 58, 64);
+    transform: scale(1.1);
+    border-radius: 8px;
+}
+/*-----------------------------*/
+/*about css*/
+.about {
+    background: rgb(252, 254, 253);
+    border-radius: 10px;
+    width: 901px;
+    margin: auto;
+    position: relative;
+    top: -26px;
+    left: 12px;
+    box-shadow: 2px 6px 9px 3px rgba(7, 7, 7, 0.5);
+}
+/*-----------------------------*/
+/*servise section css*/
+.content-s {
+    width: 251px;
+    background: #2b2b2b;
+    color: white;
+}
+.content-s span {
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding: 5px 9px;
+}
+.content-s p {
+    color: rgb(151, 149, 149);
+}
+.content-s h5 {
+    color: rgb(190, 189, 189);
+}
+.red-btn {
+    width: 94px;
+    border: 2px solid rgb(52, 58, 64);
+    color: rgb(82, 78, 78);
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: bold;
+    transition: all .5s;
+    background: white;
+}
+.red-btn:hover {
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 12px;
+    background: rgb(52, 58, 64);
+    width: 98px;
+    border: 2px solid rgb(52, 58, 64);
+}
+/* ----------------------------------- */
+/* potfolio section */
+.caption{
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(85, 84, 84);
+    font-style: italic;
+    word-spacing: 1px;
+    letter-spacing: 23px;
+}
+.item-box-p {
+    box-shadow: 5px 3px 2px rgba(2, 2, 2, 0.2);
+    box-sizing: border-box;
+    height: 311px;
+    background-color: rgba(254, 254, 255, 0.3);
+
+
+    transition: .4s;
+}
+.item-box-p:hover{
+    transform: scale(1.4);
+ox;
+}
+.item-box-p img{
+    height: 310px;
+}
+/*-----------------------------*/
+/*footer section css*/
+.soccial-icon li a {
+    color: #2b2b2b;
+    background: #ddd;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+
+    transition: .5s;
+}
+.soccial-icon li a:hover{
+    color: white;
+    background: #2b2b2b;
+}
+/*-----------------------------*/
+/*social icon fixed css*/
+.social-icon-right {
+    position: fixed;
+    bottom: 33px;
+    right: 17px;
+}
+.soccial-icon-ul li {
+    border: 1px solid rgb(145, 150, 149);
+    margin-bottom: 0px;
+}
+.soccial-icon-ul li a {
+    color: #2b2b2b;
+    background: white;
+    padding: 3px;
+    font-size: 24px;
+
+    transition: .5s;
+}
+.soccial-icon-ul li a:hover{
+    color: rgb(48, 142, 177);
+}
+/*-------------- Enmd-------------------------*/
